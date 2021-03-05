@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+}
+
+.products {
+  flex: 1;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 24px;
+}
